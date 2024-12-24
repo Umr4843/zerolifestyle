@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>JS Hamburger</title>
+</head>
+
+<body>
+    <nav>
+        <div class="main">
+            <div class="logo">
+                <img
+                    src="https://zerolifestyle.co/cdn/shop/files/zero-lifestyle-logo_5b9310b8-4d88-410b-84d0-b1f7fada86b2.webp?v=1683120623&width=200" />
+            </div>
+            <div class="list">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                    <li>Signup</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-user login"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="navbar" id="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <i class="fa-solid fa-user login"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars hamburger" id="hamburger"></i>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider1">
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider2">
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </nav>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

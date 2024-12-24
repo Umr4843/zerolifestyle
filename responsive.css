@@ -1,0 +1,78 @@
+@media screen and (max-width:768px){
+    .icons{
+        display: none;
+    }
+    .list ul li{
+        list-style-type: none;
+        color: white;
+        font-size: 15px;
+    }
+    .slider1
+    {
+        background-image: url("https://zerolifestyle.co/cdn/shop/files/Mob-banner-revoltt-pro.webp?v=1734076929&width=3000")!important;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+    }
+    .slider2{
+        background-image: url("https://zerolifestyle.co/cdn/shop/files/Arcade-800-Live-Now-Mobile-Web-Banner.webp?v=1732284643&width=3000")!important;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+    }
+    .slider3{
+        background-image: url("https://zerolifestyle.co/cdn/shop/files/Arcade-900-Live-Now-Mobile-Web-Banner.webp?v=1732284643&width=3000")!important;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:620px){
+    .icons{
+        display: none;
+    }
+    .list{
+        display: none;
+    }
+    .hamburger{
+        display: block!important;
+    }
+    .navbar{
+       display: block!important;
+        background-color: orange;
+        color:white;
+        height:200px;
+        width: 100%;
+        margin-top: 230px;
+    }
+    .navbar li{
+        list-style-type: none;
+    }
+    .navbar ul i{
+        display: flex;
+        flex-direction: row;
+    }
+    .hidden{
+        display: none!important;
+    }
+    .slider1
+    {
+        background-image: url("https://zerolifestyle.co/cdn/shop/files/Mob-banner-revoltt-pro.webp?v=1734076929&width=3000")!important;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+    }
+    .slider2{
+        background-image: url("https://zerolifestyle.co/cdn/shop/files/Arcade-800-Live-Now-Mobile-Web-Banner.webp?v=1732284643&width=3000")!important;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+    }
+    .slider3{
+        background-image: url("https://zerolifestyle.co/cdn/shop/files/Arcade-900-Live-Now-Mobile-Web-Banner.webp?v=1732284643&width=3000")!important;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+    }
+}
